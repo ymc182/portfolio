@@ -11,21 +11,21 @@ function App() {
 				<Container sx={{ display: "flex", flexDirection: "column", alignItems: "center", p: 3 }}>
 					<Card
 						sx={{
-							background: "rgba(36,180,25,0.5)",
+							background: "rgba(200,200,200,0.5)",
 							display: "flex",
 							flexDirection: "column",
 							alignItems: "center",
 							textAlign: "center",
-							padding: "1rem 3rem 1rem 3rem",
+							padding: "1rem 1rem 1rem 1rem",
+							borderRadius: "20px",
 						}}
 					>
 						<header>
-							<h1>YMC</h1>
-							<p>🚀 Welcome to my website!</p>
+							<img src="/studioLogo.png" width={150} style={{ borderRadius: "20px" }} alt="Logo"></img>
 						</header>
 					</Card>
 					<blockquote>
-						<p>I like making stuff and putting it on the internet</p>
+						<p style={{ color: "white" }}>Under Development</p>
 					</blockquote>
 
 					<section>
